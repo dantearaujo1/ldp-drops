@@ -1,0 +1,10 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.uniform-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover; /* Ajusta a imagem para preencher sem distorcer */
+}
